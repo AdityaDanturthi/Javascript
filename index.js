@@ -19,10 +19,18 @@
 // listen for clicks on the increment button
 // increment the count variable when the button is clicked
 // change the count-el in the html to reflect the new count
-
+let countEl= document.getElementById("count-el")
 let count = 0;
+let saveCount = 0;
+let firstPrev = document.getElementById("firstBatch")
 function increment() {
     count = count + 1;
-    document.getElementById("count-el").innerText =count
+    countEl.innerText = count
+}
+
+function save(){
+    saveCount = count;
+    firstPrev.innerText = saveCount
+    // console.log(saveCount)
 }
 
