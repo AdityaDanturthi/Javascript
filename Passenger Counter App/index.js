@@ -13,3 +13,24 @@
 // bonusPoints = bonusPoints - 25;
 // bonusPoints = bonusPoints + 45;
 // console.log(bonusPoints)
+
+// Process
+// initialize count to 0
+// listen for clicks on the increment button
+// increment the count variable when the button is clicked
+// change the count-el in the html to reflect the new count
+let countEl= document.getElementById("count-el")
+let count = 0;
+let saveCount = 0;
+let firstPrev = document.getElementById("firstBatch")
+function increment() {
+    count = count + 1;
+    countEl.innerText = count
+}
+
+function save(){
+    saveCount = count;
+    firstPrev.innerText = saveCount
+    // console.log(saveCount)
+}
+
