@@ -29,7 +29,7 @@ function increment() {
 
 function save(){
     let saveCount = count + " -"
-    savedEL.innerText = saveCount
+    savedEL.innerText += saveCount
     // console.log(saveCount)
 }
 
