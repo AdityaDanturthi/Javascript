@@ -21,16 +21,15 @@
 // change the count-el in the html to reflect the new count
 let countEl= document.getElementById("count-el")
 let count = 0;
-let saveCount = 0;
-let firstPrev = document.getElementById("firstBatch")
+let savedEL = document.getElementById("save-el")
 function increment() {
     count = count + 1;
     countEl.innerText = count
 }
 
 function save(){
-    saveCount = count;
-    firstPrev.innerText = saveCount
+    let saveCount = count + " -"
+    savedEL.innerText = saveCount
     // console.log(saveCount)
 }
 
