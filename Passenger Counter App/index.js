@@ -24,7 +24,7 @@ let count = 0;
 let savedEL = document.getElementById("save-el")
 function increment() {
     count = count + 1;
-    countEl.innerText = count
+    countEl.textContent = count
 }
 
 function save(){
