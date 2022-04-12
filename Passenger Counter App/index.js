@@ -30,6 +30,7 @@ function increment() {
 function save(){
     let saveCount = count + " - "
     savedEL.textContent += saveCount
+    countEl.textContent = 0
     count = 0
     // console.log(saveCount)
 }
