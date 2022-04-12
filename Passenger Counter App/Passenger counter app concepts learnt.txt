@@ -1,0 +1,9 @@
+Concepts learnt:
+Script tag
+Variables
+Numbers
+Mathematical operations
+Strings (concatenation)
+Console.log()
+Functions
+The DOM (document.getElementbyId, innerText and textContent)
