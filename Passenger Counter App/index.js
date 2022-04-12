@@ -28,8 +28,8 @@ function increment() {
 }
 
 function save(){
-    let saveCount = count + " -"
-    savedEL.innerText += saveCount
+    let saveCount = count + " - "
+    savedEL.textContent += saveCount
     // console.log(saveCount)
 }
 
