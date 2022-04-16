@@ -2,5 +2,6 @@
 // "Something went wrong, please try again" in the paragraph
 // that has the id = "error"
 
-let errorEl = document.getElementById("error")
-errorEl.innerText = "Something went wrong, please try again"
+function errormessage() {
+    document.getElementById("error").innerText = "Something went wrong, please try again";
+}
