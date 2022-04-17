@@ -11,17 +11,20 @@ let divRes = 0
 
 function add() {
     addRes = num1 + num2;
+    document.getElementById("sum-el").textContent = "Sum: " + addRes
 }
-document.getElementById("sum-el").textContent = addRes
 
 function subtract() {
     subRes = num1 - num2;
+    document.getElementById("sub-el").textContent = "Subtraction: " + subRes
 }
 
 function multiply() {
     mulRes = num1 * num2;
+    document.getElementById("mul-el").textContent = "Multiplication: " + mulRes
 }
 
 function divide() {
     divRes = num1 / num2;
+    document.getElementById("div-el").textContent = "Division: " + divRes
 }
