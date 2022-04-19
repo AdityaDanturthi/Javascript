@@ -16,15 +16,15 @@ function add() {
 
 function subtract() {
     subRes = num1 - num2;
-    document.getElementById("sub-el").textContent = "Subtraction: " + subRes
+    document.getElementById("sum-el").textContent = "Subtraction: " + subRes
 }
 
 function multiply() {
     mulRes = num1 * num2;
-    document.getElementById("mul-el").textContent = "Multiplication: " + mulRes
+    document.getElementById("sum-el").textContent = "Multiplication: " + mulRes
 }
 
 function divide() {
     divRes = num1 / num2;
-    document.getElementById("div-el").textContent = "Division: " + divRes
+    document.getElementById("sum-el").textContent = "Division: " + divRes
 }
